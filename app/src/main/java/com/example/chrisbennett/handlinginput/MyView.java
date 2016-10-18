@@ -60,6 +60,7 @@ public class MyView extends View  {
         p.setColor(Color.rgb(123,234,23));
 
         black = new Paint();
+        black.setStrokeWidth(5);
         p.setColor(Color.BLACK);
 
         text = new Paint();
